@@ -3,7 +3,7 @@ Welcome to Daniels 😋, This is my personal Portfolio Website built to showcase
 creativity, and the ability to build responsive, user-friendly, and modern web applications.
 
 # Live Demo
-Experience the Tabs Project in action! Click the link below to access the live demo: [Daniels Demo]((https://ahmedbm98.github.io/Daniels/)
+Experience the Tabs Project in action! Click the link below to access the live demo: [Daniels Demo](https://ahmedbm98.github.io/Daniels/)
 
 # Technologies
 HTML, CSS, Bootstrap, JavaScript, Font Awesome
