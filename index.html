@@ -1,0 +1,1321 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="keywords" content="HTML, CSS, Bootstrap, and JavaScript" />
+    <meta
+      name="description"
+      content="This project is a simple HTML, CSS, Bootstrap, and JavaScript template for a portfolio website."
+    />
+    <title>Daniels</title>
+    <!--** FavIcon -->
+    <link rel="shortcut icon" href="./imgs/favicon.ico" type="image/x-icon" />
+    <!--** BootStrap File CSS -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <!--** FontAwesome Flie -->
+    <link rel="stylesheet" href="./css/all.min.css" />
+    <!--** Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!--** Main File CSS -->
+    <link rel="stylesheet" href="./css/daniels.css" />
+  </head>
+
+  <body data-bs-spy="scroll" data-bs-target="#navbar-example">
+    <!-- ** Start Navbar Section -->
+    <nav class="navbar navbar-expand-md fixed-top py-4" id="navbar-example">
+      <div class="container">
+        <a class="navbar-brand text-white fw-bold font-montserrat" href="#"
+          >DANIELS</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span><i class="fa-solid fa-bars"></i></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav gap-3 ms-auto">
+            <li class="nav-item">
+              <a
+                class="nav-link font-poppins text-capitalize active"
+                aria-current="page"
+                href="#"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link font-poppins text-capitalize" href="#about"
+                >about</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link font-poppins text-capitalize" href="#services"
+                >services</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link font-poppins text-capitalize" href="#porfolio"
+                >works</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link font-poppins text-capitalize"
+                href="#testmonial"
+                >clients</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link font-poppins text-capitalize" href="#ourTeam"
+                >team</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link font-poppins text-capitalize" href="#contact"
+                >contact</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- ** End Navbar Section -->
+    <!--** Start Header Section -->
+    <header class="min-vh-100 d-flex justify-content-center align-items-center">
+      <div class="content-haeder text-white text-center text-capitalize">
+        <h1 class="fs-1 mb-3">Hello</h1>
+        <h1>i am <span class="typing-txt"></span></h1>
+        <!-- Social Icons -->
+        <ul class="d-flex justify-content-center gap-2 mt-5">
+          <li
+            class="d-flex justify-content-center align-items-center rounded-circle"
+          >
+            <a target="_blank" href="https://www.facebook.com/"
+              ><i class="fa-brands fa-facebook-f"></i
+            ></a>
+          </li>
+          <li
+            class="d-flex justify-content-center align-items-center rounded-circle"
+          >
+            <a target="_blank" href="https://www.twitter.com/"
+              ><i class="fa-brands fa-twitter"></i
+            ></a>
+          </li>
+          <li
+            class="d-flex justify-content-center align-items-center rounded-circle"
+          >
+            <a target="_blank" href="https://www.linkedin.com/"
+              ><i class="fa-brands fa-linkedin"></i
+            ></a>
+          </li>
+          <li
+            class="d-flex justify-content-center align-items-center rounded-circle"
+          >
+            <a target="_blank" href="https://www.behance.com/"
+              ><i class="fa-brands fa-behance"></i
+            ></a>
+          </li>
+          <li
+            class="d-flex justify-content-center align-items-center rounded-circle"
+          >
+            <a target="_blank" href="https://www.youtube.com/"
+              ><i class="fa-brands fa-youtube"></i
+            ></a>
+          </li>
+        </ul>
+      </div>
+    </header>
+    <!--** End Header Section -->
+    <!--** Start About Section -->
+    <section id="about">
+      <div class="container">
+        <div class="row g-5">
+          <!-- Image About Me -->
+          <div class="col-lg-5">
+            <div class="image position-relative">
+              <img
+                src="./imgs/hero.jpg"
+                alt="Img about me"
+                class="w-100 rounded"
+              />
+            </div>
+          </div>
+          <!-- Content About me -->
+          <div class="col-lg-7">
+            <div class="content-about">
+              <h2
+                class="fw-bolder font-montserrat mb-0 color-heading text-capitalize"
+              >
+                about me.
+              </h2>
+              <span class="font-poppins mb-4 d-block"
+                >UI / UX DESIGNER & WEB DEVELOPER</span
+              >
+              <p class="lh-base color-paragraph font-poppins mb-5">
+                I am <span class="fw-bold">Jerry Daniels</span> Lorem Ipsum is
+                simply dummy text of the printing and typesetting industry.
+                Lorem Ipsum has been the industry's standard dummy text ever It
+                has survived not only five centuries, but also the leap into
+                electronic but also the leap into electronic typesetting,
+                remaining essentially unchanged. It was popularised in the 1960s
+                with the release of Letraset sheets containing
+              </p>
+              <!-- Progress bar -->
+              <div>
+                <div
+                  class="progress mb-4"
+                  style="height: 25px"
+                  role="progressbar"
+                  aria-label="Example with label"
+                  aria-valuenow="25"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                >
+                  <div
+                    class="progress-bar rounded font-poppins flex-row justify-content-between align-items-center fw-semibold"
+                    style="width: 95%; background-color: #1c1c1c"
+                  >
+                    <span class="ms-3 fw-lighter text-capitalize"
+                      >web design</span
+                    >
+                    <span class="me-3 fw-lighter text-capitalize">95%</span>
+                  </div>
+                </div>
+                <div
+                  class="progress mb-4"
+                  style="height: 25px"
+                  role="progressbar"
+                  aria-label="Example with label"
+                  aria-valuenow="25"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                >
+                  <div
+                    class="progress-bar rounded font-poppins flex-row justify-content-between align-items-center fw-semibold"
+                    style="width: 80%; background-color: #1c1c1c"
+                  >
+                    <span class="ms-3 fw-lighter text-capitalize"
+                      >Branding</span
+                    >
+                    <span class="me-3 fw-lighter text-capitalize">80%</span>
+                  </div>
+                </div>
+                <div
+                  class="progress mb-4"
+                  style="height: 25px"
+                  role="progressbar"
+                  aria-label="Example with label"
+                  aria-valuenow="25"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                >
+                  <div
+                    class="progress-bar rounded font-poppins flex-row justify-content-between align-items-center fw-semibold"
+                    style="width: 90%; background-color: #1c1c1c"
+                  >
+                    <span class="ms-3 fw-lighter text-capitalize"
+                      >Development</span
+                    >
+                    <span class="me-3 fw-lighter text-capitalize">90%</span>
+                  </div>
+                </div>
+              </div>
+              <!-- Buttons -->
+              <div class="mt-5">
+                <a
+                  href="#"
+                  download="#"
+                  class="text-decoration-none text-capitalize font-poppins rounded"
+                  >download c.v</a
+                >
+                <a
+                  href="#contact"
+                  class="text-decoration-none text-capitalize font-poppins rounded"
+                  >contact me</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--** End About Section -->
+    <!-- ** Start Services Section -->
+    <section id="services">
+      <!-- Main Heading -->
+      <div class="special-haeding">
+        <h2
+          class="text-center text-capitalize font-montserrat position-relative z-1"
+        >
+          services.
+        </h2>
+      </div>
+      <!-- box-services -->
+      <div class="container">
+        <div class="row row-cols-1 row-cols-lg-3 pt-4 g-4">
+          <!-- box-serv -->
+          <div class="col">
+            <div
+              class="box-service shadow rounded bg-white py-5 px-4 text-center text-capitalize"
+            >
+              <span
+                class="d-flex justify-content-center align-items-center rounded-circle mb-3"
+                ><i class="fs-4 fa-solid fa-laptop"></i
+              ></span>
+              <h3
+                class="text-capitalize my-3 fw-bolder font-montserrat color-heading"
+              >
+                web design
+              </h3>
+              <p class="font-poppins color-paragraph">
+                Lorem Ipsum is simply dummy text of the Lorem Ipsum has been the
+                industry's standard dummy text ever
+              </p>
+            </div>
+          </div>
+          <!-- box-serv -->
+          <div class="col">
+            <div
+              class="box-service shadow rounded bg-white py-5 px-4 text-center text-capitalize"
+            >
+              <span
+                class="d-flex justify-content-center align-items-center rounded-circle mb-3"
+                ><i class="fs-4 fa-solid fa-bullhorn"></i
+              ></span>
+              <h3
+                class="text-capitalize my-3 fw-bolder font-montserrat color-heading"
+              >
+                Branding
+              </h3>
+              <p class="font-poppins color-paragraph">
+                Lorem Ipsum is simply dummy text of the Lorem Ipsum has been the
+                industry's standard dummy text ever
+              </p>
+            </div>
+          </div>
+          <!-- box-serv -->
+          <div class="col">
+            <div
+              class="box-service shadow rounded bg-white py-5 px-4 text-center text-capitalize"
+            >
+              <span
+                class="d-flex justify-content-center align-items-center rounded-circle mb-3"
+                ><i class="fs-4 fa-solid fa-umbrella"></i
+              ></span>
+              <h3
+                class="text-capitalize my-3 fw-bolder font-montserrat color-heading"
+              >
+                Development
+              </h3>
+              <p class="font-poppins color-paragraph">
+                Lorem Ipsum is simply dummy text of the Lorem Ipsum has been the
+                industry's standard dummy text ever
+              </p>
+            </div>
+          </div>
+          <!-- box-serv -->
+          <div class="col">
+            <div
+              class="box-service shadow rounded bg-white py-5 px-4 text-center text-capitalize"
+            >
+              <span
+                class="d-flex justify-content-center align-items-center rounded-circle mb-3"
+                ><i class="fs-4 fa-regular fa-gem"></i
+              ></span>
+              <h3
+                class="text-capitalize my-3 fw-bolder font-montserrat color-heading"
+              >
+                Creative Design
+              </h3>
+              <p class="font-poppins color-paragraph">
+                Lorem Ipsum is simply dummy text of the Lorem Ipsum has been the
+                industry's standard dummy text ever
+              </p>
+            </div>
+          </div>
+          <!-- box-serv -->
+          <div class="col">
+            <div
+              class="box-service shadow rounded bg-white py-5 px-4 text-center text-capitalize"
+            >
+              <span
+                class="d-flex justify-content-center align-items-center rounded-circle mb-3"
+                ><i class="fs-4 fa-solid fa-tv"></i
+              ></span>
+              <h3
+                class="text-capitalize my-3 fw-bolder font-montserrat color-heading"
+              >
+                Fully Responsive
+              </h3>
+              <p class="font-poppins color-paragraph">
+                Lorem Ipsum is simply dummy text of the Lorem Ipsum has been the
+                industry's standard dummy text ever
+              </p>
+            </div>
+          </div>
+          <!-- box-serv -->
+          <div class="col">
+            <div
+              class="box-service shadow rounded bg-white py-5 px-4 text-center text-capitalize"
+            >
+              <span
+                class="d-flex justify-content-center align-items-center rounded-circle mb-3"
+                ><i class="fs-4 fa-solid fa-camera"></i
+              ></span>
+              <h3
+                class="text-capitalize my-3 fw-bolder font-montserrat color-heading"
+              >
+                Retina Ready
+              </h3>
+              <p class="font-poppins color-paragraph">
+                Lorem Ipsum is simply dummy text of the Lorem Ipsum has been the
+                industry's standard dummy text ever
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ** End Services Section -->
+    <!-- ** Start PortFolio Section -->
+    <section id="porfolio">
+      <!-- Main Heading -->
+      <div class="special-haeding">
+        <h2
+          class="text-center text-capitalize font-montserrat position-relative z-1"
+        >
+          portfolio.
+        </h2>
+      </div>
+      <!-- Nav And Tab -->
+      <ul
+        class="nav nav-pills justify-content-center mb-4"
+        id="pills-tab"
+        role="tablist"
+      >
+        <li class="nav-item" role="presentation">
+          <button
+            class="nav-link text-capitalize fw-semibold active"
+            id="pills-home-tab"
+            data-bs-toggle="pill"
+            data-bs-target="#pills-all"
+            type="button"
+            role="tab"
+            aria-controls="pills-home"
+            aria-selected="true"
+          >
+            All
+          </button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button
+            class="nav-link text-capitalize fw-semibold"
+            id="pills-profile-tab"
+            data-bs-toggle="pill"
+            data-bs-target="#pills-brand"
+            type="button"
+            role="tab"
+            aria-controls="pills-profile"
+            aria-selected="false"
+          >
+            brand
+          </button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button
+            class="nav-link text-capitalize fw-semibold"
+            id="pills-contact-tab"
+            data-bs-toggle="pill"
+            data-bs-target="#pills-design"
+            type="button"
+            role="tab"
+            aria-controls="pills-contact"
+            aria-selected="false"
+          >
+            design
+          </button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button
+            class="nav-link text-capitalize fw-semibold"
+            id="pills-disabled-tab"
+            data-bs-toggle="pill"
+            data-bs-target="#pills-graphic"
+            type="button"
+            role="tab"
+            aria-controls="pills-disabled"
+            aria-selected="false"
+          >
+            graphic
+          </button>
+        </li>
+      </ul>
+      <div class="tab-content pt-4" id="pills-tabContent">
+        <div
+          class="tab-pane fade show active"
+          id="pills-all"
+          role="tabpanel"
+          aria-labelledby="pills-home-tab"
+          tabindex="0"
+        >
+          <div class="container">
+            <div class="row row-cols-1 row-cols-lg-3 g-4">
+              <!-- box-portfolio -->
+              <div class="col">
+                <div class="image position-relative">
+                  <div
+                    class="layer position-absolute d-flex flex-column gap-3 justify-content-center align-items-center rounded"
+                  >
+                    <span class="fs-6 fw-semibold text-capitalize color-heading"
+                      >web design</span
+                    >
+                    <div class="box-icon">
+                      <a
+                        class="text-decoration-none d-inline-flex justify-content-center align-items-center rounded-circle"
+                        href="#"
+                        ><i class="fa-solid fa-link-slash"></i
+                      ></a>
+                      <a
+                        class="text-decoration-none d-inline-flex justify-content-center align-items-center rounded-circle"
+                        href="#"
+                        ><i class="fa-solid fa-magnifying-glass"></i
+                      ></a>
+                    </div>
+                  </div>
+                  <img
+                    src="./imgs/portfolio/1.jpg"
+                    alt="The First Work"
+                    class="w-100 d-block"
+                  />
+                </div>
+              </div>
+              <!-- box-portfolio -->
+              <div class="col">
+                <div class="image position-relative">
+                  <div
+                    class="layer position-absolute d-flex flex-column gap-3 justify-content-center align-items-center rounded"
+                  >
+                    <span class="fs-6 fw-semibold text-capitalize color-heading"
+                      >web design</span
+                    >
+                    <div class="box-icon">
+                      <a
+                        class="text-decoration-none d-inline-flex justify-content-center align-items-center rounded-circle"
+                        href="#"
+                        ><i class="fa-solid fa-link-slash"></i
+                      ></a>
+                      <a
+                        class="text-decoration-none d-inline-flex justify-content-center align-items-center rounded-circle"
+                        href="#"
+                        ><i class="fa-solid fa-magnifying-glass"></i
+                      ></a>
+                    </div>
+                  </div>
+                  <img
+                    src="./imgs/portfolio/2.jpg"
+                    alt="The second work"
+                    class="w-100 d-block"
+                  />
+                </div>
+              </div>
+              <!-- box-portfolio -->
+              <div class="col">
+                <div class="image position-relative">
+                  <div
+                    class="layer position-absolute d-flex flex-column gap-3 justify-content-center align-items-center rounded"
+                  >
+                    <span class="fs-6 fw-semibold text-capitalize color-heading"
+                      >web design</span
+                    >
+                    <div class="box-icon">
+                      <a
+                        class="text-decoration-none d-inline-flex justify-content-center align-items-center rounded-circle"
+                        href="#"
+                        ><i class="fa-solid fa-link-slash"></i
+                      ></a>
+                      <a
+                        class="text-decoration-none d-inline-flex justify-content-center align-items-center rounded-circle"
+                        href="#"
+                        ><i class="fa-solid fa-magnifying-glass"></i
+                      ></a>
+                    </div>
+                  </div>
+                  <img
+                    src="./imgs/portfolio/3.jpg"
+                    alt="the third work"
+                    class="w-100 d-block"
+                  />
+                </div>
+              </div>
+              <!-- box-portfolio -->
+              <div class="col">
+                <div class="image position-relative">
+                  <div
+                    class="layer position-absolute d-flex flex-column gap-3 justify-content-center align-items-center rounded"
+                  >
+                    <span class="fs-6 fw-semibold text-capitalize color-heading"
+                      >web design</span
+                    >
+                    <div class="box-icon">
+                      <a
+                        class="text-decoration-none d-inline-flex justify-content-center align-items-center rounded-circle"
+                        href="#"
+                        ><i class="fa-solid fa-link-slash"></i
+                      ></a>
+                      <a
+                        class="text-decoration-none d-inline-flex justify-content-center align-items-center rounded-circle"
+                        href="#"
+                        ><i class="fa-solid fa-magnifying-glass"></i
+                      ></a>
+                    </div>
+                  </div>
+                  <img
+                    src="./imgs/portfolio/4.jpg"
+                    alt="the fourth work"
+                    class="w-100 d-block"
+                  />
+                </div>
+              </div>
+              <!-- box-portfolio -->
+              <div class="col">
+                <div class="image position-relative">
+                  <div
+                    class="layer position-absolute d-flex flex-column gap-3 justify-content-center align-items-center rounded"
+                  >
+                    <span class="fs-6 fw-semibold text-capitalize color-heading"
+                      >web design</span
+                    >
+                    <div class="box-icon">
+                      <a
+                        class="text-decoration-none d-inline-flex justify-content-center align-items-center rounded-circle"
+                        href="#"
+                        ><i class="fa-solid fa-link-slash"></i
+                      ></a>
+                      <a
+                        class="text-decoration-none d-inline-flex justify-content-center align-items-center rounded-circle"
+                        href="#"
+                        ><i class="fa-solid fa-magnifying-glass"></i
+                      ></a>
+                    </div>
+                  </div>
+                  <img
+                    src="./imgs/portfolio/5.jpg"
+                    alt="the fifth work"
+                    class="w-100 d-block"
+                  />
+                </div>
+              </div>
+              <!-- box-portfolio -->
+              <div class="col">
+                <div class="image position-relative">
+                  <div
+                    class="layer position-absolute d-flex flex-column gap-3 justify-content-center align-items-center rounded"
+                  >
+                    <span class="fs-6 fw-semibold text-capitalize color-heading"
+                      >web design</span
+                    >
+                    <div class="box-icon">
+                      <a
+                        class="text-decoration-none d-inline-flex justify-content-center align-items-center rounded-circle"
+                        href="#"
+                        ><i class="fa-solid fa-link-slash"></i
+                      ></a>
+                      <a
+                        class="text-decoration-none d-inline-flex justify-content-center align-items-center rounded-circle"
+                        href="#"
+                        ><i class="fa-solid fa-magnifying-glass"></i
+                      ></a>
+                    </div>
+                  </div>
+                  <img
+                    src="./imgs/portfolio/6.jpg"
+                    alt="the Sixth work"
+                    class="w-100 d-block"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="tab-pane fade"
+          id="pills-brand"
+          role="tabpanel"
+          aria-labelledby="pills-profile-tab"
+          tabindex="0"
+        >
+          <div class="container">
+            <div class="row row-cols-1 row-cols-lg-3 g-4">
+              <!-- box-portfolio -->
+              <div class="col">
+                <div class="image position-relative">
+                  <div
+                    class="layer position-absolute d-flex flex-column gap-3 justify-content-center align-items-center rounded"
+                  >
+                    <span class="fs-6 fw-semibold text-capitalize color-heading"
+                      >web design</span
+                    >
+                    <div class="box-icon">
+                      <a
+                        class="text-decoration-none d-inline-flex justify-content-center align-items-center rounded-circle"
+                        href="#"
+                        ><i class="fa-solid fa-link-slash"></i
+                      ></a>
+                      <a
+                        class="text-decoration-none d-inline-flex justify-content-center align-items-center rounded-circle"
+                        href="#"
+                        ><i class="fa-solid fa-magnifying-glass"></i
+                      ></a>
+                    </div>
+                  </div>
+                  <img
+                    src="./imgs/portfolio/4.jpg"
+                    alt="the fourth work"
+                    class="w-100 d-block"
+                  />
+                </div>
+              </div>
+              <!-- box-portfolio -->
+              <div class="col">
+                <div class="image position-relative">
+                  <div
+                    class="layer position-absolute d-flex flex-column gap-3 justify-content-center align-items-center rounded"
+                  >
+                    <span class="fs-6 fw-semibold text-capitalize color-heading"
+                      >web design</span
+                    >
+                    <div class="box-icon">
+                      <a
+                        class="text-decoration-none d-inline-flex justify-content-center align-items-center rounded-circle"
+                        href="#"
+                        ><i class="fa-solid fa-link-slash"></i
+                      ></a>
+                      <a
+                        class="text-decoration-none d-inline-flex justify-content-center align-items-center rounded-circle"
+                        href="#"
+                        ><i class="fa-solid fa-magnifying-glass"></i
+                      ></a>
+                    </div>
+                  </div>
+                  <img
+                    src="./imgs/portfolio/6.jpg"
+                    alt="the Sixth work"
+                    class="w-100 d-block"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="tab-pane fade"
+          id="pills-design"
+          role="tabpanel"
+          aria-labelledby="pills-contact-tab"
+          tabindex="0"
+        >
+          <div class="container">
+            <div class="row row-cols-1 row-cols-lg-3 g-4">
+              <!-- box-portfolio -->
+              <div class="col">
+                <div class="image position-relative">
+                  <div
+                    class="layer position-absolute d-flex flex-column gap-3 justify-content-center align-items-center rounded"
+                  >
+                    <span class="fs-6 fw-semibold text-capitalize color-heading"
+                      >web design</span
+                    >
+                    <div class="box-icon">
+                      <a
+                        class="text-decoration-none d-inline-flex justify-content-center align-items-center rounded-circle"
+                        href="#"
+                        ><i class="fa-solid fa-link-slash"></i
+                      ></a>
+                      <a
+                        class="text-decoration-none d-inline-flex justify-content-center align-items-center rounded-circle"
+                        href="#"
+                        ><i class="fa-solid fa-magnifying-glass"></i
+                      ></a>
+                    </div>
+                  </div>
+                  <img
+                    src="./imgs/portfolio/2.jpg"
+                    alt="The second work"
+                    class="w-100 d-block"
+                  />
+                </div>
+              </div>
+              <!-- box-portfolio -->
+              <div class="col">
+                <div class="image position-relative">
+                  <div
+                    class="layer position-absolute d-flex flex-column gap-3 justify-content-center align-items-center rounded"
+                  >
+                    <span class="fs-6 fw-semibold text-capitalize color-heading"
+                      >web design</span
+                    >
+                    <div class="box-icon">
+                      <a
+                        class="text-decoration-none d-inline-flex justify-content-center align-items-center rounded-circle"
+                        href="#"
+                        ><i class="fa-solid fa-link-slash"></i
+                      ></a>
+                      <a
+                        class="text-decoration-none d-inline-flex justify-content-center align-items-center rounded-circle"
+                        href="#"
+                        ><i class="fa-solid fa-magnifying-glass"></i
+                      ></a>
+                    </div>
+                  </div>
+                  <img
+                    src="./imgs/portfolio/5.jpg"
+                    alt="the fifth work"
+                    class="w-100 d-block"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="tab-pane fade"
+          id="pills-graphic"
+          role="tabpanel"
+          aria-labelledby="pills-disabled-tab"
+          tabindex="0"
+        >
+          <div class="container">
+            <div class="row row-cols-1 row-cols-lg-3 g-4">
+              <!-- box-portfolio -->
+              <div class="col">
+                <div class="image position-relative">
+                  <div
+                    class="layer position-absolute d-flex flex-column gap-3 justify-content-center align-items-center rounded"
+                  >
+                    <span class="fs-6 fw-semibold text-capitalize color-heading"
+                      >web design</span
+                    >
+                    <div class="box-icon">
+                      <a
+                        class="text-decoration-none d-inline-flex justify-content-center align-items-center rounded-circle"
+                        href="#"
+                        ><i class="fa-solid fa-link-slash"></i
+                      ></a>
+                      <a
+                        class="text-decoration-none d-inline-flex justify-content-center align-items-center rounded-circle"
+                        href="#"
+                        ><i class="fa-solid fa-magnifying-glass"></i
+                      ></a>
+                    </div>
+                  </div>
+                  <img
+                    src="./imgs/portfolio/1.jpg"
+                    alt="The First Work"
+                    class="w-100 d-block"
+                  />
+                </div>
+              </div>
+              <!-- box-portfolio -->
+              <div class="col">
+                <div class="image position-relative">
+                  <div
+                    class="layer position-absolute d-flex flex-column gap-3 justify-content-center align-items-center rounded"
+                  >
+                    <span class="fs-6 fw-semibold text-capitalize color-heading"
+                      >web design</span
+                    >
+                    <div class="box-icon">
+                      <a
+                        class="text-decoration-none d-inline-flex justify-content-center align-items-center rounded-circle"
+                        href="#"
+                        ><i class="fa-solid fa-link-slash"></i
+                      ></a>
+                      <a
+                        class="text-decoration-none d-inline-flex justify-content-center align-items-center rounded-circle"
+                        href="#"
+                        ><i class="fa-solid fa-magnifying-glass"></i
+                      ></a>
+                    </div>
+                  </div>
+                  <img
+                    src="./imgs/portfolio/3.jpg"
+                    alt="the third work"
+                    class="w-100 d-block"
+                  />
+                </div>
+              </div>
+              <!-- box-portfolio -->
+              <div class="col">
+                <div class="image position-relative">
+                  <div
+                    class="layer position-absolute d-flex flex-column gap-3 justify-content-center align-items-center rounded"
+                  >
+                    <span class="fs-6 fw-semibold text-capitalize color-heading"
+                      >web design</span
+                    >
+                    <div class="box-icon">
+                      <a
+                        class="text-decoration-none d-inline-flex justify-content-center align-items-center rounded-circle"
+                        href="#"
+                        ><i class="fa-solid fa-link-slash"></i
+                      ></a>
+                      <a
+                        class="text-decoration-none d-inline-flex justify-content-center align-items-center rounded-circle"
+                        href="#"
+                        ><i class="fa-solid fa-magnifying-glass"></i
+                      ></a>
+                    </div>
+                  </div>
+                  <img
+                    src="./imgs/portfolio/5.jpg"
+                    alt="the fifth work"
+                    class="w-100 d-block"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ** End PortFolio Section -->
+    <!-- ** Start Testmonial Section -->
+    <section id="testmonial">
+      <!-- Main Heading -->
+      <div class="special-haeding">
+        <h2
+          class="text-center text-capitalize font-montserrat position-relative z-1"
+        >
+          testmonial.
+        </h2>
+      </div>
+      <!-- Carousel -->
+      <div class="container">
+        <div class="row">
+          <div
+            id="carouselExampleInterval"
+            class="carousel slide"
+            data-bs-ride="carousel"
+          >
+            <div class="carousel-inner w-75 mx-auto">
+              <div
+                class="carousel-item text-center active"
+                data-bs-interval="1000"
+              >
+                <div class="image mb-3 w-50 mx-auto">
+                  <img
+                    src="./imgs/1_New1.jpg"
+                    class="d-block w-25 mx-auto rounded-circle"
+                    alt="Testmonial One"
+                  />
+                </div>
+                <div class="fw-normal d-none d-md-block">
+                  <p class="fs-6 font-poppins color-paragraph">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Magni unde delectus aliquam quis provident! Natus at culpa
+                    totam rerum delectus asperiores
+                  </p>
+                  <h5
+                    class="mb-0 text-capitalize fw-semibold color-heading font-montserrat"
+                  >
+                    Alex smith
+                  </h5>
+                  <span
+                    class="fs-6 font-poppins color-paragraph text-capitalize"
+                    >envato Customer</span
+                  >
+                </div>
+              </div>
+              <div class="carousel-item text-center" data-bs-interval="2000">
+                <div class="image mb-3 w-50 mx-auto">
+                  <img
+                    src="./imgs/2.jpg"
+                    class="d-block w-25 mx-auto rounded-circle"
+                    alt="Testmonial One"
+                  />
+                </div>
+                <div class="fw-normal d-none d-md-block">
+                  <p class="fs-6 font-poppins color-paragraph">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Magni unde delectus aliquam quis provident! Natus at culpa
+                    totam rerum delectus asperiores.
+                  </p>
+                  <h5
+                    class="mb-0 text-capitalize fw-semibold color-heading font-montserrat"
+                  >
+                    Alex smith
+                  </h5>
+                  <span
+                    class="fs-6 font-poppins color-paragraph text-capitalize"
+                    >envato Customer</span
+                  >
+                </div>
+              </div>
+              <div class="carousel-item text-center" data-bs-interval="3000">
+                <div class="image mb-3 w-50 mx-auto">
+                  <img
+                    src="./imgs/1_New1.jpg"
+                    class="d-block w-25 mx-auto rounded-circle"
+                    alt="Testmonial One"
+                  />
+                </div>
+                <div class="fw-normal d-none d-md-block">
+                  <p class="fs-6 font-poppins color-paragraph">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Magni unde delectus aliquam quis provident! Natus at culpa
+                    totam rerum delectus asperiores.
+                  </p>
+                  <h5
+                    class="mb-0 text-capitalize fw-semibold color-heading font-montserrat"
+                  >
+                    Alex smith
+                  </h5>
+                  <span
+                    class="fs-6 font-poppins color-paragraph text-capitalize"
+                    >envato Customer</span
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="carousel-indicators position-static mt-3">
+              <button
+                type="button"
+                data-bs-target="#carouselExampleInterval"
+                data-bs-slide-to="0"
+                class="active"
+                aria-current="true"
+                aria-label="Slide 1"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleInterval"
+                data-bs-slide-to="1"
+                aria-label="Slide 2"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleInterval"
+                data-bs-slide-to="2"
+                aria-label="Slide 3"
+              ></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ** End Testmonial Section -->
+    <!-- ** Start Counter section -->
+    <section id="counter">
+      <div class="container">
+        <div class="row row-cols-1 row-cols-md-4">
+          <!-- box counter -->
+          <div class="col">
+            <div class="content-counter py-5 text-center">
+              <span><i class="fs-3 mb-3 fa-solid fa-users"></i></span>
+              <h2 data-count="450"></h2>
+              <p class="color-paragraph fw-bold fs-6">Happy Customers</p>
+            </div>
+          </div>
+          <!-- box counter -->
+          <div class="col">
+            <div class="content-counter py-5 text-center">
+              <span><i class="fs-3 mb-3 fa-solid fa-thumbs-up"></i></span>
+              <h2 data-count="300"></h2>
+              <p class="color-paragraph fw-bold fs-6">Complete Projects</p>
+            </div>
+          </div>
+          <!-- box counter -->
+          <div class="col">
+            <div class="content-counter py-5 text-center">
+              <span><i class="fs-3 mb-3 fa-solid fa-bullhorn"></i></span>
+              <h2 data-count="420"></h2>
+              <p class="color-paragraph fw-bold fs-6">Lines Of Code</p>
+            </div>
+          </div>
+          <!-- box counter -->
+          <div class="col">
+            <div class="content-counter py-5 text-center">
+              <span
+                ><i class="fs-3 mb-3 fa-solid fa-cloud-arrow-down"></i
+              ></span>
+              <h2 data-count="500"></h2>
+              <p class="color-paragraph fw-bold fs-6">Files Downloaded</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ** End Counter section -->
+    <!-- ** Start Our Team  Section -->
+    <section id="ourTeam">
+      <!-- Main Heading -->
+      <div class="special-haeding">
+        <h2
+          class="text-center text-capitalize font-montserrat position-relative z-1"
+        >
+          our team.
+        </h2>
+      </div>
+      <!-- Collection Of Team -->
+      <div class="container">
+        <div class="row row-cols-1 row-cols-lg-3 g-4">
+          <!-- Single Team -->
+          <div class="col">
+            <div class="card-team">
+              <div class="image position-relative overflow-hidden">
+                <img
+                  class="w-100 rounded-top"
+                  src="./imgs/1.jpg"
+                  alt="Team One"
+                />
+                <!-- Layer -->
+                <ul
+                  class="layer d-flex justify-content-center align-items-center gap-1 rounded position-absolute"
+                >
+                  <li
+                    class="d-flex justify-content-center align-items-center rounded-circle"
+                  >
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                  </li>
+                  <li
+                    class="d-flex justify-content-center align-items-center rounded-circle"
+                  >
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                  </li>
+                  <li
+                    class="d-flex justify-content-center align-items-center rounded-circle"
+                  >
+                    <a href="#"><i class="fa-brands fa-pinterest"></i></a>
+                  </li>
+                  <li
+                    class="d-flex justify-content-center align-items-center rounded-circle"
+                  >
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                  </li>
+                </ul>
+              </div>
+              <!-- Content About Team -->
+              <div
+                class="content-team text-center text-capitalize text-white px-3 py-2 rounded-bottom"
+              >
+                <span class="fs-3">John Doe</span>
+                <h2 class="fs-5 fw-semibold">FRONT-END DEVELOPER</h2>
+              </div>
+            </div>
+          </div>
+          <!-- Single Team -->
+          <div class="col">
+            <div class="card-team">
+              <div class="image position-relative overflow-hidden">
+                <img
+                  class="w-100 rounded-top"
+                  src="./imgs/2.jpg"
+                  alt="Team two"
+                />
+                <!-- Layer -->
+                <ul
+                  class="layer d-flex justify-content-center align-items-center gap-1 rounded position-absolute"
+                >
+                  <li
+                    class="d-flex justify-content-center align-items-center rounded-circle"
+                  >
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                  </li>
+                  <li
+                    class="d-flex justify-content-center align-items-center rounded-circle"
+                  >
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                  </li>
+                  <li
+                    class="d-flex justify-content-center align-items-center rounded-circle"
+                  >
+                    <a href="#"><i class="fa-brands fa-pinterest"></i></a>
+                  </li>
+                  <li
+                    class="d-flex justify-content-center align-items-center rounded-circle"
+                  >
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                  </li>
+                </ul>
+              </div>
+              <!-- Content about Team -->
+              <div
+                class="content-team text-center text-capitalize text-white px-3 py-2 rounded-bottom"
+              >
+                <span class="fs-3">Dave Wood</span>
+                <h2 class="fs-5 fw-semibold">BACK-END DEVELOPER</h2>
+              </div>
+            </div>
+          </div>
+          <!-- Single Team -->
+          <div class="col">
+            <div class="card-team">
+              <div class="image position-relative overflow-hidden">
+                <img
+                  class="w-100 rounded-top"
+                  src="./imgs/1.jpg"
+                  alt="Team One"
+                />
+                <!-- Layer -->
+                <ul
+                  class="layer d-flex justify-content-center align-items-center gap-1 rounded position-absolute"
+                >
+                  <li
+                    class="d-flex justify-content-center align-items-center rounded-circle"
+                  >
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                  </li>
+                  <li
+                    class="d-flex justify-content-center align-items-center rounded-circle"
+                  >
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                  </li>
+                  <li
+                    class="d-flex justify-content-center align-items-center rounded-circle"
+                  >
+                    <a href="#"><i class="fa-brands fa-pinterest"></i></a>
+                  </li>
+                  <li
+                    class="d-flex justify-content-center align-items-center rounded-circle"
+                  >
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                  </li>
+                </ul>
+              </div>
+              <!-- Content about Team -->
+              <div
+                class="content-team text-center text-capitalize text-white px-3 py-2 rounded-bottom"
+              >
+                <span class="fs-3">Claire Chedd</span>
+                <h2 class="fs-5 fw-semibold">BACK-END DEVELOPER</h2>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ** End Our Team  Section -->
+    <!-- ** Start Contact Section -->
+    <section id="contact">
+      <!-- Main Heading -->
+      <div class="special-haeding">
+        <h2
+          class="text-center text-capitalize font-montserrat position-relative z-1"
+        >
+          Contact Us.
+        </h2>
+      </div>
+      <!-- Contact Info -->
+      <div class="container">
+        <div class="row row-cols-1 row-cols-md-3">
+          <!-- Address info -->
+          <div class="col">
+            <div class="contact-info text-center text-capitalize">
+              <span
+                class="d-inline-flex justify-content-center align-items-center rounded-circle mb-4"
+                ><i class="fs-5 fa-solid fa-location-arrow"></i
+              ></span>
+              <h3 class="color-heading font-montserrat">address</h3>
+              <p class="color-paragraph font-poppins">
+                6834 Hollywood Blvd - Los Angeles CA
+              </p>
+            </div>
+          </div>
+          <!-- Email info -->
+          <div class="col">
+            <div class="contact-info text-center text-capitalize">
+              <span
+                class="d-inline-flex justify-content-center align-items-center rounded-circle mb-4"
+                ><i class="fs-5 fa-solid fa-envelope"></i
+              ></span>
+              <h3 class="color-heading font-montserrat">Email</h3>
+              <p class="color-paragraph font-poppins">Support@website.com</p>
+            </div>
+          </div>
+          <!-- Phone info -->
+          <div class="col">
+            <div class="contact-info text-center text-capitalize">
+              <span
+                class="d-inline-flex justify-content-center align-items-center rounded-circle mb-4"
+                ><i class="fs-5 fa-solid fa-phone"></i
+              ></span>
+              <h3 class="color-heading font-montserrat">Phone</h3>
+              <p class="color-paragraph font-poppins">
+                <a class="text-decoration-none" href="tel:+20 010 2517 8918"
+                  >+20 0102517 8918</a
+                >
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- Form -->
+        <form action="#" class="mt-4">
+          <div class="mb-3 d-sm-flex justify-content-between gap-3">
+            <input
+              class="w-100 mb-3 mb-sm-0 rounded border-0"
+              type="text"
+              name="Name"
+              placeholder="Name"
+              aria-label="Name"
+              required
+              aria-required="true"
+            />
+            <input
+              class="w-100 rounded border-0"
+              type="email"
+              name="Email"
+              placeholder="Email"
+              aria-label="Email"
+              required
+              aria-required="true"
+            />
+          </div>
+          <div class="mb-3 d-flex">
+            <textarea
+              class="flex-grow-1 p-3 rounded border-0"
+              name="Message"
+              rows="6"
+              placeholder="Message"
+              aria-label="Message"
+            ></textarea>
+          </div>
+          <button class="btn px-4 py-2 fw-light">submit</button>
+        </form>
+      </div>
+    </section>
+    <!-- ** End Contact Section -->
+    <!-- ** Start Footer Section -->
+    <footer id="footer">
+      <p class="text-center m-0">
+        Copy Right 2018 &copy; By Daniels All Rights Reserved
+      </p>
+    </footer>
+    <!-- ** End Footer Section -->
+
+    <!--** Loading  -->
+    <div id="loading"></div>
+    <!--** Button To Scroll Top -->
+    <span id="btn"><i class="fa-solid fa-circle-chevron-up"></i></span>
+    <!--** Typing Animate Js -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <!--** BootStrap Js File -->
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <!--** Main JS File -->
+    <script src="./js/main.js"></script>
+  </body>
+</html>
